@@ -1,0 +1,16 @@
+a{
+    background-color: aqua;
+}
+/* #vk{
+    background-color: yellow;
+} its not a proper solution becoz need to update the attribute in all the pages it increases the development cost */ 
+
+a[target]{
+    background-color: yellow;
+}
+/* target(its unique)is used as attribute becoz its different thn other pages(href all pages hv soo its common) */
+
+*{
+    background-color: bisque;
+}
+/* its gonna apply to all */

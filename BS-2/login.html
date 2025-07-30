@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <link href="./bs.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a href="./index.html" class="navbar-brand">Logo</a>
+            <div class="ml-auto">
+                <ul class="navbar-nav">
+                    <li><a href="./index.html" class="nav-link">Home</a></li>
+                    <li><a href="./about.html" class="nav-link">About</a></li>
+                    <li><a href="./services.html" class="nav-link">Services</a></li>
+                    <li><a href="./employee.html" class="nav-link">Employee</a></li>
+                    <li><a href="./product.html" class="nav-link">Product</a></li>
+                    <li><a href="./contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="./login.html" class="nav-link">Login</a></li>
+                   
+                </ul>
+            </div>
+        </nav>
+        <hr>
+        <div>
+           <h2>Login page</h2> 
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+        <!-- not using bootstrap only using html -->
+                <div class="col-3">
+                        <form>
+                                <label>Email:</label>
+                                <input type="email" /><br>
+                                <label>Password:</label>
+                                <input type="password" /><br><br>
+                                <input type="submit" value="Login"/>
+                        </form>
+                </div>
+
+
+                <!-- Using bootstrap -->
+
+                <div class="col-3">
+                        <form>
+                            <div class="form-group">
+                                <label>Email:</label>
+                                <input type="email" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Password:</label>
+                                <input type="password" class="form-control"/>
+                            </div>
+                                <input type="button" value="Login" class="btn btn-success"/>
+                        </form>
+                </div>
+
+                <!-- With bootstrap without label using placeholder -->
+
+                <div class="col-3">
+                        <form>
+                            <div class="form-group">
+                                <input placeholder="Email" type="email" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <input placeholder="Password" type="password" class="form-control"/>
+                            </div>
+                                <input type="button" value="Login" class="btn btn-success"/>
+                        </form>
+                </div>
+
+                <!-- Using Cards nd bootstrap  -->
+
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-header bg-dark text-white">
+                            <h3>Login details</h3>
+                        </div>
+                        <div class="card-body">
+                                <form>
+                            <div class="form-group">
+                                <input placeholder="Email" type="email" class="form-control" required/>
+                            </div>
+                            <div class="form-group">
+                                <input placeholder="Password" type="password" class="form-control"/>
+                            </div>
+                                <input type="button" value="Login" class="btn btn-success"/>
+                        </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    
+    </body>
+</html>
